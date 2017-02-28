@@ -1,0 +1,26 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "Gateway de pagamento",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gateway"
+  ],
+  "author": "Delmo Bispo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-load": "^1.1.15",
+    "express-validator": "^3.1.2",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "database-cleaner": "^1.2.0",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}
